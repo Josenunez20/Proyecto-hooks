@@ -12,6 +12,7 @@ import Hooks8 from './components/Hooks8'
 import Hooks9 from './components/Hooks9'
 import Hooks10 from './components/Hooks10'
 import Hooks11 from './components/Hooks11'
+import Hooks12 from './components/Hooks12'
 import Child from './components/Child'
 
 function App() {
@@ -32,6 +33,7 @@ return (
         <Route path="Hooks9" element={<Hooks9/>}/>
         <Route path="Hooks10" element={<Hooks10/>}/>
         <Route path="Hooks11" element={<Hooks11/>}/>
+        <Route path="Hooks12" element={<Hooks12/>}/>
         <Route path="Child" element={<Child/>}/>
       </Routes>
     </>

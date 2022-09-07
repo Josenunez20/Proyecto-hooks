@@ -41,6 +41,9 @@ const Hooks = () => {
           <li>
             <Link to="Hooks11">Memo</Link>
           </li>
+          <li>
+            <Link to="Hooks12">useContext</Link>
+          </li>
         </ul>
       </div>
     </div>

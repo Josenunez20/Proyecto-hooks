@@ -6,7 +6,7 @@ const UserContext = createContext({
 });
 
 function Hooks12() {
-  const [userName, setUserName] = useState('John Smith');
+  const [userName, setUserName] = useState('Jose');
   const value = useMemo(
     () => ({ userName, setUserName }), 
     [userName]
